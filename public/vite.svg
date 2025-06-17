@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="248" fill="#4299E1" stroke="#2B6CB0" stroke-width="16"/>
+  
+  <!-- Book Pages -->
+  <path d="M156 156
+           C156 136 176 126 196 126
+           L376 126
+           C386 126 396 136 396 146
+           L396 366
+           C396 376 386 386 376 386
+           L196 386
+           C176 386 156 376 156 356
+           Z" 
+        fill="white" stroke="#2B6CB0" stroke-width="12"/>
+  
+  <!-- Book Spine -->
+  <path d="M156 156
+           C156 136 176 126 196 126
+           C176 126 156 136 156 156
+           L156 356
+           C156 376 176 386 196 386
+           C176 386 156 376 156 356
+           Z" 
+        fill="#BEE3F8" stroke="#2B6CB0" stroke-width="12"/>
+  
+  <!-- Lines representing text -->
+  <g stroke="#4A5568" stroke-width="8" stroke-linecap="round">
+    <line x1="216" y1="186" x2="336" y2="186"/>
+    <line x1="216" y1="226" x2="336" y2="226"/>
+    <line x1="216" y1="266" x2="336" y2="266"/>
+    <line x1="216" y1="306" x2="286" y2="306"/>
+  </g>
+  
+  <!-- Brain icon -->
+  <g transform="translate(316, 286) scale(0.6)">
+    <path d="M50 50
+             C30 30 60 0 90 20
+             C120 0 150 30 130 50
+             C150 70 120 100 90 80
+             C60 100 30 70 50 50
+             Z" 
+          fill="#F687B3" stroke="#B83280" stroke-width="8"/>
+  </g>
+</svg>
